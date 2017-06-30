@@ -15,14 +15,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:text="Close"/>
+        android:text="Close" />
 
     <Button
         android:id="@+id/main_view_terms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Terms and Conditions"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:text="View Terms and Conditions" />
 
 </RelativeLayout>
