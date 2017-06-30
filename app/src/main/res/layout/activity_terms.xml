@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/terms_textView_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Terms View!" />
-</android.support.constraint.ConstraintLayout>
+        android:textStyle="bold"
+        android:text="Terms and Conditions"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tristique mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus laoreet dapibus felis vitae porta. Proin lacinia turpis sed tortor aliquam finibus. Mauris luctus a nisl vel pulvinar. In ipsum lacus, molestie vitae semper hendrerit, pellentesque sit amet erat. Duis egestas nisl risus, quis pellentesque felis aliquet sed. Phasellus nec diam varius, venenatis nisl vel, iaculis felis. Nulla ut ante faucibus, blandit arcu eget, laoreet neque. Mauris tincidunt purus libero, vitae ornare diam porta non. Aenean non elit leo.
+
+Proin a blandit arcu. Duis sollicitudin diam quis lacinia pellentesque. Nunc dignissim nec turpis nec tempor. Nullam vel nisi quis libero pretium porttitor tristique eget ante. Cras sagittis facilisis turpis id volutpat. Etiam auctor, urna quis euismod semper, augue orci aliquam nunc, quis aliquam sapien arcu rhoncus nisl. Nunc posuere ante leo, non laoreet enim suscipit in. Etiam sapien est, ornare non risus et, rutrum facilisis est. Maecenas elementum ultrices neque, at accumsan nisl sollicitudin ut. Curabitur nec auctor erat. Ut tincidunt laoreet commodo. Ut urna enim, congue sed pulvinar sit amet, lacinia quis ipsum. Aenean consequat pharetra justo sit amet condimentum. Quisque nec interdum tortor, id porta odio. Sed leo lectus, ultricies nec blandit eu, lobortis id mi. Vivamus eget metus at nisl dapibus pharetra a et lorem.
+
+Cras mattis aliquet arcu, eget ullamcorper dolor sagittis in. Aliquam rhoncus risus ultricies feugiat aliquet. Sed sed vehicula massa. Cras feugiat non metus vestibulum laoreet. Suspendisse sapien mauris, congue ac venenatis vitae, bibendum porttitor dui. Sed dapibus fermentum enim, eu volutpat massa vestibulum ut. Nulla ornare sagittis justo non hendrerit. Donec pretium varius convallis. Mauris venenatis consequat sapien, ut tempor velit mollis nec. Aliquam blandit molestie arcu, vitae tincidunt tellus scelerisque vitae. Sed in lobortis nunc. Curabitur quis eleifend enim. Aliquam ultricies tincidunt felis. Etiam pulvinar tortor justo, eu pretium mauris bibendum at. Integer vulputate ullamcorper lacinia."/>
+</LinearLayout>
