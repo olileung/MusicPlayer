@@ -18,6 +18,10 @@ public class LoginActivity extends AppCompatActivity {
     private Button quit;
     private Button terms;
 
+
+    private static final String CLIENT_ID = "55de491d17f14b66862d5ac4a266d82d";
+    private static final String REDRIECT_URI = "mp://callback";
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

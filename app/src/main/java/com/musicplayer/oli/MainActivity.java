@@ -6,6 +6,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.spotify.sdk.android.player.ConnectionStateCallback;
+import com.spotify.sdk.android.player.SpotifyPlayer;
+
 public class MainActivity extends AppCompatActivity {
     private ImageButton play;
 
